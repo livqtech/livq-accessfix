@@ -1,0 +1,34 @@
+.livqacea-st-intro { background:#f0f6fc;border-left:4px solid #2271b1;border-radius:0 4px 4px 0;padding:14px 18px;max-width:680px;margin:12px 0 24px; }
+.livqacea-st-intro-title { margin:0 0 6px;font-weight:600;color:#1d2327; }
+.livqacea-st-intro-text { margin:0;color:#50575e;font-size:.9rem; }
+.livqacea-st-shortcode { background:#fff;border:1px solid #c3c4c7;padding:1px 6px;border-radius:3px;font-size:.85rem;margin-left:4px; }
+
+.livqacea-st-row { display:flex;gap:24px;align-items:flex-start;flex-wrap:wrap; }
+.livqacea-st-col-config { flex:1;min-width:320px;max-width:600px; }
+.livqacea-st-col-preview { flex:1;min-width:280px;max-width:480px; }
+
+.livqacea-st-card { background:#fff;border:1px solid #c3c4c7;border-radius:8px;padding:28px; }
+.livqacea-st-card-sm { background:#fff;border:1px solid #c3c4c7;border-radius:8px;padding:20px 24px; }
+.livqacea-st-table { margin-top:0; }
+
+.livqacea-st-section-th { padding-bottom:4px;padding-top:16px; }
+.livqacea-st-section-th-first { padding-bottom:4px;padding-top:8px; }
+.livqacea-st-section-label { font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:#646970; }
+.livqacea-st-th { width:210px; }
+
+.livqacea-st-notice { margin-top:8px;font-size:.85rem;border-radius:4px;padding:10px 14px;border:1px solid transparent;display:none; }
+.livqacea-st-measure-label { display:block;margin-bottom:6px; }
+
+.livqacea-st-confirm-box { background:#fff8e1;border:1px solid #dba617;border-radius:4px;padding:14px 16px;margin:16px 0; }
+.livqacea-st-confirm-last { margin:0 0 10px;font-size:.8rem;color:#50575e; }
+.livqacea-st-confirm-label { display:flex;gap:10px;align-items:flex-start;cursor:pointer; }
+.livqacea-st-confirm-checkbox { margin-top:2px;flex-shrink:0; }
+.livqacea-st-confirm-text { font-size:.875rem;color:#1d2327;line-height:1.5; }
+
+.livqacea-st-create-box { background:#f0f6fc;border:1px solid #b3d7ed;border-radius:8px;padding:18px 24px;margin-top:16px; }
+.livqacea-st-create-title { margin:0 0 8px;font-size:.95rem; }
+.livqacea-st-create-success { color:#0a6b2d;margin:0 0 10px; }
+.livqacea-st-create-desc { color:#50575e;font-size:.875rem;margin:0 0 10px; }
+
+.livqacea-st-preview-title { margin:0 0 12px;font-size:.9rem;color:#646970;text-transform:uppercase;letter-spacing:.04em; }
+.livqacea-st-preview-body { font-size:.875rem;border-top:1px solid #f0f0f1;padding-top:12px; }

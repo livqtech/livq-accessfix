@@ -1,0 +1,13 @@
+.livqacea-ct-tool { max-width:780px;margin-top:20px; }
+.livqacea-ct-inputs { display:flex;gap:24px;align-items:flex-end;flex-wrap:wrap;margin-bottom:24px; }
+.livqacea-ct-field label { display:block;font-weight:600;margin-bottom:6px; }
+.livqacea-ct-row { display:flex;gap:8px;align-items:center; }
+.livqacea-ct-row input[type="color"] { width:44px;height:36px;padding:2px;border:1px solid #c3c4c7;border-radius:4px;cursor:pointer; }
+#livqacea-ct-preview { width:200px;height:60px;border:1px solid #c3c4c7;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:1.05rem;font-weight:600;background:#ffffff;color:#000000; }
+#livqacea-ct-ratio { text-align:center;padding:20px;background:#f0f0f1;border-radius:8px;margin:0 0 20px;font-size:2.8rem;font-weight:700; }
+.livqacea-ct-ratio-unit { font-size:1.4rem;color:#646970; }
+.livqacea-ct-table { margin-top:0; }
+.livqacea-pass { color:#1e8325;font-weight:700; }
+.livqacea-fail { color:#8b1a1a;font-weight:700; }
+.livqacea-palette-chip { padding:9px 14px;border-radius:4px;cursor:pointer;font-weight:600;border:2px solid transparent;font-size:.85rem; }
+.livqacea-palette-chip:hover { border-color:#2271b1; }

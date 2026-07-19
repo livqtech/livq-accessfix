@@ -1,0 +1,2041 @@
+# LivQ AccessFix - Portuguese Portugal (Português de Portugal)
+# Copyright (C) 2026 LivQ
+# This file is distributed under the same license as the LivQ AccessFix plugin.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LivQ AccessFix 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-16 19:43+0200\n"
+"PO-Revision-Date: 2026-06-24T00:00:00+00:00\n"
+"Last-Translator: LivQ <https://github.com/catalisidev>\n"
+"Language-Team: European Portuguese <https://translate.wordpress.org/locale/"
+"pt/default/>\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4\n"
+"X-Domain: livq-accessfix\n"
+
+#: includes/class-edg-advanced.php:185
+#, php-format
+msgid ""
+"Heading hierarchy skip: found <h%1$d> right after <h%2$d> without a <h%3$d> "
+"in between. This disorients screen reader users navigating by headings (WCAG "
+"1.3.1)."
+msgstr ""
+"Salto na hierarquia de títulos: encontrado <h%1$d> imediatamente após "
+"<h%2$d> sem um <h%3$d> intermédio. Isto desorienta os utilizadores de "
+"leitores de ecrã que navegam por títulos (WCAG 1.3.1)."
+
+#: includes/class-edg-advanced.php:236
+msgid "LivQ AccessFix - Heading Hierarchy:"
+msgstr "LivQ AccessFix - Hierarquia de títulos:"
+
+#: includes/class-edg-advanced.php:294 includes/class-edg-statement.php:600
+msgid "Permission denied."
+msgstr "Permissão negada."
+
+#: includes/class-edg-backend.php:139
+msgid "Detecting…"
+msgstr "A detectar…"
+
+#: includes/class-edg-backend.php:140
+msgid "Not found - enter manually."
+msgstr "Não encontrado - introduza manualmente."
+
+#: includes/class-edg-backend.php:141
+msgid "Request failed."
+msgstr "Pedido falhou."
+
+#: includes/class-edg-backend.php:161 includes/class-edg-backend.php:563
+msgid "LivQ AccessFix – EAA & A11y AutoFix"
+msgstr "LivQ AccessFix – EAA & A11y AutoFix"
+
+#: includes/class-edg-backend.php:162
+msgid "LivQ AccessFix"
+msgstr "LivQ AccessFix"
+
+#: includes/class-edg-backend.php:173
+msgid "LivQ AccessFix – Settings"
+msgstr "LivQ AccessFix – Definições"
+
+#: includes/class-edg-backend.php:174 includes/class-edg-plugin-links.php:85
+msgid "Settings"
+msgstr "Definições"
+
+#: includes/class-edg-backend.php:189 includes/class-edg-backend.php:929
+msgid "Accessibility Issues Log"
+msgstr "Registo de problemas de acessibilidade"
+
+#: includes/class-edg-backend.php:190
+msgid "Issues Log"
+msgstr "Registo de problemas"
+
+#: includes/class-edg-backend.php:224
+msgid "Accessibility Modules (WCAG 2.2 AA)"
+msgstr "Módulos de acessibilidade (WCAG 2.2 AA)"
+
+#: includes/class-edg-backend.php:243
+msgid "HTML Output Remediations (EAA)"
+msgstr "Correções de saída HTML (EAA)"
+
+#: includes/class-edg-backend.php:263
+msgid "WooCommerce Accessibility"
+msgstr "Acessibilidade WooCommerce"
+
+#: includes/class-edg-backend.php:270
+msgid "Enable WooCommerce fixes"
+msgstr "Ativar correções do WooCommerce"
+
+#: includes/class-edg-backend.php:276
+msgid "WooCommerce accessibility fixes"
+msgstr "Correções de acessibilidade WooCommerce"
+
+#: includes/class-edg-backend.php:277
+msgid ""
+"Adds aria-label to quantity +/− buttons, the product gallery trigger link, "
+"and Add to Cart buttons on archive pages. Injects a JS live region for cart "
+"announcements and aria-current for variation selectors. WCAG 4.1.2 / 2.4.4."
+msgstr ""
+
+#: includes/class-edg-backend.php:286
+msgid "Advanced Controls & Structure"
+msgstr "Controlos avançados e estrutura"
+
+#: includes/class-edg-backend.php:305
+msgid "Accessibility Statement (EAA)"
+msgstr "Declaração de acessibilidade (EAA)"
+
+#: includes/class-edg-backend.php:312
+msgid "Enable Accessibility Statement"
+msgstr "Ativar declaração de acessibilidade"
+
+#: includes/class-edg-backend.php:321
+msgid "Configuration"
+msgstr "Configuração"
+
+#: includes/class-edg-backend.php:328
+msgid "Skip Link Target"
+msgstr "Destino da ligação de salto"
+
+#: includes/class-edg-backend.php:336
+msgid "Data on Uninstall"
+msgstr "Dados na desinstalação"
+
+#: includes/class-edg-backend.php:355
+msgid "Fix external links (target=\"_blank\")"
+msgstr "Corrigir ligações externas (target=\"_blank\")"
+
+#: includes/class-edg-backend.php:356
+msgid ""
+"Automatically adds a screen reader notice to every link that opens in a new "
+"browser tab. WCAG Technique G201 - Criterion 2.4.4."
+msgstr ""
+"Adiciona automaticamente um aviso de leitor de ecrã a cada ligação que abre "
+"num novo separador do navegador. Técnica WCAG G201 - Critério 2.4.4."
+
+#: includes/class-edg-backend.php:361
+msgid "Inject Skip Link (Skip to content)"
+msgstr "Inserir ligação de salto (Saltar para o conteúdo)"
+
+#: includes/class-edg-backend.php:362
+msgid ""
+"Inserts an invisible link as the first element in <body>, allowing keyboard "
+"users to skip repeated navigation. WCAG Technique G1 - Criterion 2.4.1."
+msgstr ""
+"Insere uma ligação invisível como primeiro elemento no <body>, permitindo "
+"que utilizadores de teclado saltem a navegação repetida. Técnica WCAG G1 - "
+"Critério 2.4.1."
+
+#: includes/class-edg-backend.php:367
+msgid "Fix alt attribute on decorative images"
+msgstr "Corrigir atributo alt em imagens decorativas"
+
+#: includes/class-edg-backend.php:368
+msgid ""
+"Ensures images without alternative text explicitly receive alt=\"\" instead "
+"of no attribute, preventing screen readers from announcing the file name. "
+"WCAG Technique H67 - Criterion 1.1.1."
+msgstr ""
+"Garante que imagens sem texto alternativo recebam explicitamente alt=\"\" em "
+"vez de nenhum atributo, impedindo que leitores de ecrã anunciem o nome do "
+"ficheiro. Técnica WCAG H67 - Critério 1.1.1."
+
+#: includes/class-edg-backend.php:373
+msgid "Inject High-Contrast Focus CSS"
+msgstr "Inserir CSS de foco de alto contraste"
+
+#: includes/class-edg-backend.php:374
+msgid ""
+"Adds a global CSS rule that ensures a visible, high-contrast focus indicator "
+"(3px solid #0056b3) on all interactive elements. WCAG Criterion 2.4.11."
+msgstr ""
+"Adiciona uma regra CSS global que garante um indicador de foco visível e de "
+"alto contraste (3px solid #0056b3) em todos os elementos interactivos. "
+"Critério WCAG 2.4.11."
+
+#: includes/class-edg-backend.php:389
+msgid "Menu Accessibility Helper (ARIA)"
+msgstr "Assistente de acessibilidade do menu (ARIA)"
+
+#: includes/class-edg-backend.php:390
+msgid ""
+"Automatically adds aria-haspopup=\"true\" and aria-expanded=\"false/true\" "
+"to navigation links that open a sub-menu, with native JavaScript toggle "
+"management. WCAG Criterion 4.1.2."
+msgstr ""
+"Adiciona automaticamente aria-haspopup=\"true\" e aria-expanded=\"false/"
+"true\" às ligações de navegação que abrem um submenu, com gestão nativa de "
+"alternância em JavaScript. Critério WCAG 4.1.2."
+
+#: includes/class-edg-backend.php:395
+msgid "Heading Hierarchy Check (H1–H6)"
+msgstr "Verificação de hierarquia de títulos (H1–H6)"
+
+#: includes/class-edg-backend.php:396
+msgid ""
+"On post or page save, analyses the heading structure and shows an admin "
+"notice if a hierarchy skip is detected (e.g. H2 → H4) that disorients screen "
+"readers. WCAG Criteria 1.3.1 and Technique H42."
+msgstr ""
+"Ao guardar um artigo ou página, analisa a estrutura de títulos e apresenta "
+"um aviso no painel de administração se for detectado um salto hierárquico "
+"(ex.: H2 → H4) que desorienta os leitores de ecrã. Critérios WCAG 1.3.1 e "
+"técnica H42."
+
+#: includes/class-edg-backend.php:401
+msgid "Pre-Publish Accessibility Checklist (Gutenberg)"
+msgstr "Lista de verificação de acessibilidade pré-publicação (Gutenberg)"
+
+#: includes/class-edg-backend.php:402
+msgid ""
+"Adds a panel to the Gutenberg pre-publish drawer that checks in real time: "
+"(A) images without alt text, (B) links using a raw URL as clickable text. "
+"WCAG Criteria 1.1.1 and 2.4.4."
+msgstr ""
+"Adiciona um painel à gaveta de pré-publicação do Gutenberg que verifica em "
+"tempo real: (A) imagens sem texto alternativo, (B) ligações que utilizam um "
+"URL como texto clicável. Critérios WCAG 1.1.1 e 2.4.4."
+
+#: includes/class-edg-backend.php:417
+msgid "Fix nameless links (image & icon links)"
+msgstr "Corrigir links sem nome (links de imagem e ícone)"
+
+#: includes/class-edg-backend.php:418
+msgid ""
+"Adds aria-label to links whose only content is an image with empty alt or an "
+"SVG icon - common for sponsor logos, partner logos, and social icons. Label "
+"is derived from img title, link title, or recognised domain (YouTube, "
+"Facebook, etc.). WCAG Criteria 2.4.4 / 4.1.2."
+msgstr ""
+"Adiciona aria-label a ligações cujo único conteúdo é uma imagem com alt "
+"vazio ou um ícone SVG - comum para logótipos de patrocinadores, parceiros e "
+"ícones sociais. A etiqueta é derivada de img title, link title ou domínio "
+"reconhecido (YouTube, Facebook, etc.). Critérios WCAG 2.4.4 / 4.1.2."
+
+#: includes/class-edg-backend.php:423
+msgid "Fix untitled iframes"
+msgstr "Corrigir iframes sem título"
+
+#: includes/class-edg-backend.php:424
+msgid ""
+"Adds a descriptive title attribute to every <iframe> that has none. Titles "
+"are automatically matched from the src URL: YouTube, Vimeo, Google Maps, "
+"Calendly, iubenda, and more. Screen readers announce untitled iframes simply "
+"as \"frame\". WCAG Criterion 4.1.2."
+msgstr ""
+"Adiciona um atributo title descritivo a cada <iframe> que não tem nenhum. Os "
+"títulos são automaticamente correspondidos a partir da URL src: YouTube, "
+"Vimeo, Google Maps, Calendly, iubenda e mais. Os leitores de ecrã anunciam "
+"iframes sem título simplesmente como \"frame\". Critério WCAG 4.1.2."
+
+#: includes/class-edg-backend.php:429
+msgid "Fix unlabelled form inputs"
+msgstr "Corrigir campos de formulário sem rótulo"
+
+#: includes/class-edg-backend.php:430
+msgid ""
+"Adds aria-label to <input>, <textarea>, and <select> fields that have no "
+"associated <label> or aria-label attribute. The label is derived from the "
+"placeholder text or name attribute. Only fields with no existing accessible "
+"name are modified. WCAG Criteria 1.3.1 / 3.3.2."
+msgstr ""
+"Adiciona aria-label a campos <input>, <textarea> e <select> sem elemento "
+"<label> associado ou atributo aria-label. A etiqueta é derivada do texto "
+"placeholder ou do atributo name. Apenas campos sem nome acessível existente "
+"são modificados. Critérios WCAG 1.3.1 / 3.3.2."
+
+#: includes/class-edg-backend.php:442
+msgid ""
+"These modules use the PHP output buffer to detect and patch common EAA non-"
+"conformances at render time, covering elements generated by themes, page "
+"builders, and widgets - not just post content."
+msgstr ""
+"Estes módulos utilizam o buffer de saída PHP para detetar e corrigir não-"
+"conformidades EAA comuns no momento da renderização, cobrindo elementos "
+"gerados por temas, construtores de páginas e widgets - não apenas o conteúdo "
+"das publicações."
+
+#: includes/class-edg-backend.php:451
+msgid ""
+"WooCommerce-specific accessibility fixes applied via the PHP output buffer "
+"and a lightweight inline script. Only shown when WooCommerce is active."
+msgstr ""
+
+#: includes/class-edg-backend.php:537
+msgid "Settings saved successfully."
+msgstr "Definições guardadas com sucesso."
+
+#: includes/class-edg-backend.php:573
+msgid ""
+"Enable or disable the automated WCAG 2.2 AA accessibility remediation "
+"modules. Changes are applied in real time on the frontend without altering "
+"database content."
+msgstr ""
+"Active ou desactive os módulos automáticos de correcção de acessibilidade "
+"WCAG 2.2 AA. As alterações são aplicadas em tempo real no frontend sem "
+"alterar o conteúdo da base de dados."
+
+#: includes/class-edg-backend.php:610
+msgid "Save Settings"
+msgstr "Guardar definições"
+
+#: includes/class-edg-backend.php:676
+msgid ""
+"Each module applies one or more specific WCAG techniques. The reference "
+"criterion is shown next to each option."
+msgstr ""
+"Cada módulo aplica uma ou mais técnicas WCAG específicas. O critério de "
+"referência é apresentado ao lado de cada opção."
+
+#: includes/class-edg-backend.php:687
+msgid ""
+"Structural analysis and Gutenberg block editor integration modules. They run "
+"during content save or publishing."
+msgstr ""
+"Módulos de análise estrutural e integração com o editor de blocos Gutenberg. "
+"São executados durante o guardamento ou publicação de conteúdo."
+
+#: includes/class-edg-backend.php:698
+msgid ""
+"Fine-tune how the plugin behaves on your specific theme. The skip link "
+"target is detected automatically on the first visit - you can override it "
+"here if needed."
+msgstr ""
+"Ajuste o comportamento do plugin ao seu tema específico. O destino da "
+"ligação de salto é detetado automaticamente na primeira visita - pode "
+"substituí-lo aqui se necessário."
+
+#: includes/class-edg-backend.php:725
+msgid "Auto-detect"
+msgstr "Detecção automática"
+
+#: includes/class-edg-backend.php:729
+msgid ""
+"The element ID the skip link jumps to. Leave empty to use the default "
+"(#primary). Click Auto-detect to scan your homepage automatically."
+msgstr ""
+"O ID do elemento para o qual a ligação de salto salta. Deixe vazio para usar "
+"o padrão (#primary). Clique em Deteção automática para verificar a sua "
+"página inicial automaticamente."
+
+#: includes/class-edg-backend.php:795
+msgid ""
+"Remove all plugin settings from the database when this plugin is deleted."
+msgstr ""
+"Remover todas as configurações do plugin da base de dados quando este plugin "
+"for eliminado."
+
+#: includes/class-edg-backend.php:798
+msgid ""
+"Recommended if you are permanently removing the plugin. Leave unchecked to "
+"keep your settings if you plan to reinstall."
+msgstr ""
+"Recomendado se estiver a remover o plugin permanentemente. Deixe desmarcado "
+"para manter as configurações se planeia reinstalar."
+
+#: includes/class-edg-backend.php:863
+msgid ""
+"Generate an EU-compliant Accessibility Statement for your site, required by "
+"the European Accessibility Act for public-facing services."
+msgstr ""
+
+#: includes/class-edg-backend.php:865
+msgid "Configure & Preview Statement →"
+msgstr "Configurar e pré-visualizar declaração →"
+
+#: includes/class-edg-backend.php:890
+msgid "Activate the [edg_accessibility_statement] shortcode"
+msgstr "Active o shortcode [edg_accessibility_statement]"
+
+#: includes/class-edg-backend.php:893
+msgid ""
+"Makes the shortcode available to embed a structured Accessibility Statement "
+"on any page. Configure the statement details from the dedicated page in the "
+"menu."
+msgstr ""
+
+#: includes/class-edg-backend.php:936
+msgid ""
+"Persistent log of accessibility issues detected on save. Use this audit "
+"trail to demonstrate EAA compliance progress to stakeholders or auditors."
+msgstr ""
+"Registo persistente dos problemas de acessibilidade detectados ao guardar. "
+"Utilize esta trilha de auditoria para demonstrar o progresso da conformidade "
+"com a EAA a partes interessadas ou auditores."
+
+#: includes/class-edg-backend.php:941 includes/class-edg-scanner.php:908
+msgid "Export CSV"
+msgstr "Exportar CSV"
+
+#: includes/class-edg-backend.php:948
+msgid "No issues detected."
+msgstr "Nenhum problema detectado."
+
+#: includes/class-edg-backend.php:949
+msgid "All scanned posts pass the heading hierarchy check."
+msgstr ""
+"Todas as publicações verificadas passam na verificação de hierarquia de "
+"títulos."
+
+#: includes/class-edg-backend.php:956
+msgid "ID"
+msgstr "ID"
+
+#: includes/class-edg-backend.php:957
+msgid "Post"
+msgstr "Publicação"
+
+#: includes/class-edg-backend.php:958
+msgid "Type"
+msgstr "Tipo"
+
+#: includes/class-edg-backend.php:959 includes/class-edg-scanner.php:101
+#: includes/class-edg-scanner.php:985
+msgid "WCAG"
+msgstr "WCAG"
+
+#: includes/class-edg-backend.php:960 includes/class-edg-scanner.php:102
+#: includes/class-edg-scanner.php:986
+msgid "Issue"
+msgstr "Problema"
+
+#: includes/class-edg-backend.php:961
+msgid "Detected"
+msgstr "Detectado"
+
+#: includes/class-edg-backend.php:989
+#, fuzzy, php-format
+msgid "%d issue found."
+msgid_plural "%d issues found."
+msgstr[0] "%d problema encontrado."
+msgstr[1] "%d problema encontrado."
+
+#: includes/class-edg-contrast.php:51 includes/class-edg-contrast.php:52
+#: includes/class-edg-contrast.php:97
+msgid "Contrast Checker"
+msgstr "Verificador de contraste"
+
+#: includes/class-edg-contrast.php:78
+msgid ""
+"Ratio is below 3:1 - fails all levels. Significant contrast improvement "
+"needed."
+msgstr ""
+
+#: includes/class-edg-contrast.php:79
+msgid ""
+"Passes AA for large text (≥ 3:1) but fails AA for normal text (needs ≥ "
+"4.5:1)."
+msgstr ""
+
+#: includes/class-edg-contrast.php:100
+msgid ""
+"Verify color contrast ratios for WCAG 1.4.3 (text contrast) and 1.4.11 (non-"
+"text contrast). Required for EAA compliance. Enter any two hex colors below."
+msgstr ""
+
+#: includes/class-edg-contrast.php:108
+msgid "Foreground (text / element)"
+msgstr "Primeiro plano (texto / elemento)"
+
+#: includes/class-edg-contrast.php:110
+msgid "Foreground color picker"
+msgstr "Seletor de cor do primeiro plano"
+
+#: includes/class-edg-contrast.php:115
+msgid "Background"
+msgstr "Fundo"
+
+#: includes/class-edg-contrast.php:117
+msgid "Background color picker"
+msgstr "Seletor de cor de fundo"
+
+#: includes/class-edg-contrast.php:122
+msgid "Preview"
+msgstr "Pré-visualização"
+
+#: includes/class-edg-contrast.php:124
+msgid "Sample text Aa"
+msgstr "Texto de exemplo Aa"
+
+#: includes/class-edg-contrast.php:138
+msgid "Level"
+msgstr "Nível"
+
+#: includes/class-edg-contrast.php:139
+msgid "Use case"
+msgstr "Caso de uso"
+
+#: includes/class-edg-contrast.php:140
+msgid "Minimum ratio"
+msgstr "Rácio mínimo"
+
+#: includes/class-edg-contrast.php:141
+msgid "Result"
+msgstr "Resultado"
+
+#: includes/class-edg-contrast.php:147
+msgid "Normal text (< 18 pt / < 14 pt bold)"
+msgstr "Texto normal (< 18 pt / < 14 pt negrito)"
+
+#: includes/class-edg-contrast.php:153
+msgid "Large text (≥ 18 pt / ≥ 14 pt bold)"
+msgstr "Texto grande (≥ 18 pt / ≥ 14 pt negrito)"
+
+#: includes/class-edg-contrast.php:159
+msgid "UI components & graphics (WCAG 1.4.11)"
+msgstr "Componentes de UI e gráficos (WCAG 1.4.11)"
+
+#: includes/class-edg-contrast.php:165
+msgid "Normal text (enhanced)"
+msgstr "Texto normal (melhorado)"
+
+#: includes/class-edg-contrast.php:171
+msgid "Large text (enhanced)"
+msgstr "Texto grande (melhorado)"
+
+#: includes/class-edg-contrast.php:180
+msgid "Tip:"
+msgstr "Dica:"
+
+#: includes/class-edg-contrast.php:185
+msgid "Quick test palette"
+msgstr "Paleta de teste rápido"
+
+#: includes/class-edg-contrast.php:186
+msgid "Click a pair to load it into the checker."
+msgstr "Clique num par para o carregar no verificador."
+
+#: includes/class-edg-frontend.php:193 includes/class-edg-frontend.php:257
+#: includes/class-edg-plugin-links.php:160
+msgid "(opens in a new tab)"
+msgstr "(abre num novo separador)"
+
+#: includes/class-edg-frontend.php:328 includes/class-edg-frontend.php:329
+msgid "YouTube Video"
+msgstr "Vídeo do YouTube"
+
+#: includes/class-edg-frontend.php:330
+msgid "Vimeo Video"
+msgstr "Vídeo do Vimeo"
+
+#: includes/class-edg-frontend.php:331 includes/class-edg-frontend.php:332
+msgid "Interactive Map"
+msgstr "Mapa interativo"
+
+#: includes/class-edg-frontend.php:333
+msgid "Appointment Calendar"
+msgstr "Calendário de agendamentos"
+
+#: includes/class-edg-frontend.php:334
+msgid "Cookie Policy"
+msgstr "Política de cookies"
+
+#: includes/class-edg-frontend.php:335
+msgid "Facebook Content"
+msgstr "Conteúdo do Facebook"
+
+#: includes/class-edg-frontend.php:336
+msgid "Instagram Content"
+msgstr "Conteúdo do Instagram"
+
+#: includes/class-edg-frontend.php:337 includes/class-edg-frontend.php:338
+msgid "Twitter / X Content"
+msgstr "Conteúdo do Twitter / X"
+
+#: includes/class-edg-frontend.php:339
+msgid "Spotify Player"
+msgstr "Leitor Spotify"
+
+#: includes/class-edg-frontend.php:340
+msgid "SoundCloud Player"
+msgstr "Leitor SoundCloud"
+
+#: includes/class-edg-frontend.php:341
+msgid "PayPal Payment"
+msgstr "Pagamento PayPal"
+
+#: includes/class-edg-frontend.php:342
+msgid "Form"
+msgstr "Formulário"
+
+#: includes/class-edg-frontend.php:343
+msgid "Google Form"
+msgstr "Formulário Google"
+
+#: includes/class-edg-frontend.php:344
+msgid "Google Document"
+msgstr "Documento Google"
+
+#: includes/class-edg-frontend.php:347
+msgid "Embedded content"
+msgstr "Conteúdo incorporado"
+
+#: includes/class-edg-frontend.php:552
+msgid "Skip to main content"
+msgstr "Saltar para o conteúdo principal"
+
+#: includes/class-edg-plugin-links.php:131
+msgid "Saving you time on EAA compliance?"
+msgstr "Estamos a poupar-lhe tempo na conformidade com a EAA?"
+
+#: includes/class-edg-plugin-links.php:134
+msgid ""
+"A 5-star review takes 30 seconds and helps other developers discover this "
+"tool."
+msgstr ""
+"Uma avaliação de 5 estrelas demora 30 segundos e ajuda outros programadores "
+"a descobrir esta ferramenta."
+
+#: includes/class-edg-plugin-links.php:159
+msgid "Leave a review"
+msgstr "Deixar uma avaliação"
+
+#: includes/class-edg-plugin-links.php:171
+#, php-format
+msgid "An open source project by %s."
+msgstr "Um projecto de código aberto de %s."
+
+#: includes/class-edg-scanner.php:63 includes/class-edg-scanner.php:888
+msgid "Accessibility Scanner"
+msgstr "Scanner de acessibilidade"
+
+#: includes/class-edg-scanner.php:64
+msgid "A11y Scanner"
+msgstr "Scanner A11y"
+
+#: includes/class-edg-scanner.php:97 includes/class-edg-scanner.php:960
+#: includes/class-edg-scanner.php:980
+msgid "No issues detected"
+msgstr "Nenhum problema detectado"
+
+#: includes/class-edg-scanner.php:98 includes/class-edg-scanner.php:992
+msgid "Auto-fixed"
+msgstr "Corrigido automaticamente"
+
+#: includes/class-edg-scanner.php:99 includes/class-edg-scanner.php:993
+msgid "Manual fix"
+msgstr "Correção manual"
+
+#: includes/class-edg-scanner.php:100 includes/class-edg-scanner.php:984
+msgid "Severity"
+msgstr "Gravidade"
+
+#: includes/class-edg-scanner.php:103 includes/class-edg-scanner.php:987
+msgid "Status"
+msgstr "Estado"
+
+#: includes/class-edg-scanner.php:104
+msgid "Scanning"
+msgstr "A verificar"
+
+#: includes/class-edg-scanner.php:105
+msgid "Scanning…"
+msgstr "A verificar…"
+
+#: includes/class-edg-scanner.php:106 includes/class-edg-scanner.php:895
+msgid "▶ Start Full Scan"
+msgstr "▶ Iniciar verificação completa"
+
+#: includes/class-edg-scanner.php:133
+msgid "Homepage"
+msgstr "Página inicial"
+
+#: includes/class-edg-scanner.php:144
+msgid "Blog Index"
+msgstr "Índice do blogue"
+
+#: includes/class-edg-scanner.php:162
+msgid "Single Post"
+msgstr "Publicação única"
+
+#: includes/class-edg-scanner.php:182
+#, php-format
+msgid "Page: %s"
+msgstr "Página: %s"
+
+#: includes/class-edg-scanner.php:200
+msgid "Category Archive"
+msgstr "Arquivo de categoria"
+
+#: includes/class-edg-scanner.php:210
+msgid "Search Results"
+msgstr "Resultados de pesquisa"
+
+#: includes/class-edg-scanner.php:218
+msgid "404 Page"
+msgstr "Página 404"
+
+#: includes/class-edg-scanner.php:230
+msgid "Shop"
+msgstr "Loja"
+
+#: includes/class-edg-scanner.php:246
+msgid "Product"
+msgstr "Produto"
+
+#: includes/class-edg-scanner.php:258
+msgid "Cart"
+msgstr "Carrinho"
+
+#: includes/class-edg-scanner.php:270
+msgid "Checkout"
+msgstr "Finalizar compra"
+
+#: includes/class-edg-scanner.php:281
+msgid "My Account"
+msgstr "A minha conta"
+
+#: includes/class-edg-scanner.php:300
+msgid "Product Category"
+msgstr "Categoria de produto"
+
+#: includes/class-edg-scanner.php:315
+msgid "Downloads Store"
+msgstr "Loja de downloads"
+
+#: includes/class-edg-scanner.php:330
+msgid "Download Page"
+msgstr "Página de download"
+
+#: includes/class-edg-scanner.php:350
+msgid "Course Page"
+msgstr "Página de curso"
+
+#: includes/class-edg-scanner.php:371
+msgid "Unauthorized"
+msgstr "Não autorizado"
+
+#: includes/class-edg-scanner.php:378
+msgid "Invalid URL"
+msgstr "URL inválido"
+
+#: includes/class-edg-scanner.php:505
+msgid "Page language not declared on &lt;html&gt; element."
+msgstr "Idioma da página não declarado no elemento &lt;html&gt;."
+
+#: includes/class-edg-scanner.php:518
+msgid "No skip link found. Keyboard users cannot bypass navigation."
+msgstr ""
+"Nenhuma ligação de salto encontrada. Os utilizadores de teclado não "
+"conseguem ignorar a navegação."
+
+#: includes/class-edg-scanner.php:534
+#, fuzzy, php-format
+msgid "%d image is missing the alt attribute."
+msgid_plural "%d images are missing the alt attribute."
+msgstr[0] "%d imagem sem atributo alt."
+msgstr[1] "%d imagem sem atributo alt."
+
+#: includes/class-edg-scanner.php:567
+#, fuzzy, php-format
+msgid "%d link has no accessible name (empty or image-only)."
+msgid_plural "%d links have no accessible name."
+msgstr[0] "%d link sem nome acessível (vazio ou apenas imagem)."
+msgstr[1] "%d link sem nome acessível (vazio ou apenas imagem)."
+
+#: includes/class-edg-scanner.php:600
+#, fuzzy, php-format
+msgid "%d button has no accessible name."
+msgid_plural "%d buttons have no accessible name."
+msgstr[0] "%d botão sem nome acessível."
+msgstr[1] "%d botão sem nome acessível."
+
+#: includes/class-edg-scanner.php:633
+#, fuzzy, php-format
+msgid "%d form field has no accessible label."
+msgid_plural "%d form fields have no accessible label."
+msgstr[0] "%d campo de formulário sem rótulo acessível."
+msgstr[1] "%d campo de formulário sem rótulo acessível."
+
+#: includes/class-edg-scanner.php:651
+#, fuzzy, php-format
+msgid "%d iframe has no title attribute."
+msgid_plural "%d iframes have no title attribute."
+msgstr[0] "%d iframe sem atributo title."
+msgstr[1] "%d iframe sem atributo title."
+
+#: includes/class-edg-scanner.php:675
+#, fuzzy, php-format
+msgid "%d link opening in a new tab lacks a screen-reader notice."
+msgid_plural "%d links opening in new tabs lack a screen-reader notice."
+msgstr[0] "%d link que abre em novo separador sem aviso para leitor de ecrã."
+msgstr[1] "%d link que abre em novo separador sem aviso para leitor de ecrã."
+
+#: includes/class-edg-scanner.php:701
+#, php-format
+msgid "Heading hierarchy has %1$d skip(s): %2$s"
+msgstr "A hierarquia de títulos tem %1$d salto(s): %2$s"
+
+#: includes/class-edg-scanner.php:720
+#, php-format
+msgid "%d H1 elements found - a page should have exactly one."
+msgstr "%d elementos H1 encontrados - uma página deve ter exatamente um."
+
+#: includes/class-edg-scanner.php:738
+#, fuzzy, php-format
+msgid "%d empty heading found."
+msgid_plural "%d empty headings found."
+msgstr[0] "%d título vazio encontrado."
+msgstr[1] "%d título vazio encontrado."
+
+#: includes/class-edg-scanner.php:762
+#, fuzzy, php-format
+msgid "%d table has no header cells (&lt;th&gt;)."
+msgid_plural "%d tables have no header cells."
+msgstr[0] "%d tabela sem células de cabeçalho (&lt;th&gt;)."
+msgstr[1] "%d tabela sem células de cabeçalho (&lt;th&gt;)."
+
+#: includes/class-edg-scanner.php:777
+msgid ""
+"No &lt;main&gt; landmark found. Screen reader users cannot jump directly to "
+"main content."
+msgstr ""
+
+#: includes/class-edg-scanner.php:794
+#, fuzzy, php-format
+msgid "%d WooCommerce quantity button has no aria-label."
+msgid_plural "%d WooCommerce quantity buttons have no aria-label."
+msgstr[0] "%d botão de quantidade WooCommerce sem aria-label."
+msgstr[1] "%d botão de quantidade WooCommerce sem aria-label."
+
+#: includes/class-edg-scanner.php:891
+msgid ""
+"Scans representative page templates for WCAG 2.2 AA / EAA issues. Each "
+"template type is fetched once to cover all similar pages. Results are cached "
+"for 24 hours."
+msgstr ""
+
+#: includes/class-edg-scanner.php:896
+msgid "Clear Cache"
+msgstr "Limpar cache"
+
+#: includes/class-edg-scanner.php:903
+msgid "Critical"
+msgstr "Crítico"
+
+#: includes/class-edg-scanner.php:904
+msgid "High"
+msgstr "Alto"
+
+#: includes/class-edg-scanner.php:905
+msgid "Warnings"
+msgstr "Avisos"
+
+#: includes/class-edg-scanner.php:906
+msgid "Auto-fixed by plugin"
+msgstr "Corrigido automaticamente pelo plugin"
+
+#: includes/class-edg-scanner.php:916
+msgid "Template"
+msgstr "Template"
+
+#: includes/class-edg-scanner.php:917
+msgid "URL"
+msgstr "URL"
+
+#: includes/class-edg-scanner.php:918
+msgid "Score"
+msgstr "Pontuação"
+
+#: includes/class-edg-scanner.php:919
+msgid "Issues"
+msgstr "Problemas"
+
+#: includes/class-edg-scanner.php:920
+msgid "Last Scan"
+msgstr "Última verificação"
+
+#: includes/class-edg-statement.php:91 includes/class-edg-statement.php:619
+msgid "Accessibility Statement"
+msgstr "Declaração de acessibilidade"
+
+#: includes/class-edg-statement.php:92
+msgid "A11y Statement"
+msgstr "Declaração A11y"
+
+#: includes/class-edg-statement.php:119
+msgid ""
+"Private sector: governed by Directive (EU) 2019/882 (EAA), applicable from "
+"28 June 2025. The statement follows the W3C Accessibility Statement model as "
+"best practice."
+msgstr ""
+"Setor privado: regido pela Diretiva (UE) 2019/882 (EAA), aplicável a partir "
+"de 28 de junho de 2025. A declaração segue o modelo W3C como boa prática."
+
+#: includes/class-edg-statement.php:124
+msgid ""
+"Public Administration: governed by Directive (EU) 2016/2102 + Implementing "
+"Decision 2018/1523 (since 2018/2019). You must also submit this statement "
+"annually via the official national channel (e.g. form.agid.gov.it for Italy)."
+msgstr ""
+"Administração Pública: regida pela Diretiva (UE) 2016/2102 + Decisão de "
+"Execução 2018/1523 (desde 2018/2019). Deve também submeter esta declaração "
+"anualmente através do canal nacional oficial."
+
+#: includes/class-edg-statement.php:129
+msgid ""
+"Non-profit / Third sector: if your organization offers services to the "
+"public (even for free), the EAA (Directive 2019/882) may apply. The "
+"statement will reference EAA where applicable and W3C best practice as a "
+"reference model."
+msgstr ""
+"Terceiro setor / ONG: se a sua organização presta serviços ao público (mesmo "
+"gratuitamente), a EAA (Diretiva 2019/882) pode ser aplicável. A declaração "
+"referenciará a EAA onde aplicável e o modelo W3C."
+
+#: includes/class-edg-statement.php:134
+#, fuzzy
+msgid ""
+"Microenterprise / Freelancer: organizations with fewer than 10 employees AND "
+"annual turnover ≤ €2M are exempt from EAA obligations (Art. 4(5) Directive "
+"2019/882). A statement is not mandatory but is recommended as good practice."
+msgstr ""
+"Microempresa / Freelancer: organizações com menos de 10 funcionários E "
+"faturação anual ≤ 2M€ estão isentas das obrigações da EAA (Art. 4(5) "
+"Diretiva 2019/882). Uma declaração não é obrigatória mas é recomendada como "
+"boa prática."
+
+#: includes/class-edg-statement.php:139
+#, fuzzy
+msgid ""
+"Personal website / Private individual: personal websites with no commercial "
+"activity are outside the scope of both the EAA and Directive 2016/2102. An "
+"accessibility statement is entirely voluntary."
+msgstr ""
+"Site pessoal / Particular: sites pessoais sem atividade comercial estão fora "
+"do âmbito da EAA e da Diretiva 2016/2102. Uma declaração de acessibilidade é "
+"completamente voluntária."
+
+#: includes/class-edg-statement.php:237
+msgid "Accessibility Statement - EAA / WCAG 2.2 AA"
+msgstr "Declaração de Acessibilidade - EAA / WCAG 2.2 AA"
+
+#: includes/class-edg-statement.php:241
+msgid "EAA / WCAG 2.2 AA - Accessibility Statement Generator"
+msgstr "EAA / WCAG 2.2 AA - Gerador de declaração de acessibilidade"
+
+#: includes/class-edg-statement.php:244
+msgid ""
+"The European Accessibility Act (EAA, Directive 2019/882) requires every "
+"website to publish an Accessibility Statement listing its conformance level, "
+"active remediations, and a contact channel for users to report barriers. "
+"Fill in the fields below, then embed the statement on any page with:"
+msgstr ""
+"O European Accessibility Act (EAA, Diretiva 2019/882) exige que cada sítio "
+"web publique uma Declaração de acessibilidade com o nível de conformidade, "
+"as correções ativas e um canal de contacto para os utilizadores reportarem "
+"barreiras. Preencha os campos abaixo e, em seguida, incorpore a declaração "
+"em qualquer página com:"
+
+#: includes/class-edg-statement.php:252
+msgid "Page created!"
+msgstr "Página criada!"
+
+#: includes/class-edg-statement.php:258
+msgid "Edit page"
+msgstr "Editar página"
+
+#: includes/class-edg-statement.php:260 includes/class-edg-statement.php:554
+msgid "View page ↗"
+msgstr "Ver página ↗"
+
+#: includes/class-edg-statement.php:280
+msgid "Sector"
+msgstr "Setor"
+
+#: includes/class-edg-statement.php:285
+msgid "Organization Sector"
+msgstr "Setor da organização"
+
+#: includes/class-edg-statement.php:289
+msgid "Private company / e-commerce / digital service"
+msgstr "Empresa privada / e-commerce / serviço digital"
+
+#: includes/class-edg-statement.php:290
+msgid "Public Administration (PA)"
+msgstr "Administração Pública (AP)"
+
+#: includes/class-edg-statement.php:291
+msgid "Non-profit / Association / Third sector"
+msgstr "Associação / ONG / Terceiro setor"
+
+#: includes/class-edg-statement.php:292
+#, fuzzy
+msgid "Microenterprise / Freelancer (fewer than 10 employees, turnover ≤ €2M)"
+msgstr "Microempresa / Freelancer (menos de 10 funcionários, faturação ≤ 2M€)"
+
+#: includes/class-edg-statement.php:293
+msgid "Personal website / Private individual (no VAT)"
+msgstr "Site pessoal / Particular (sem NIF empresarial)"
+
+#: includes/class-edg-statement.php:302
+msgid "Organization"
+msgstr "Organização"
+
+#: includes/class-edg-statement.php:307
+msgid "Organization Name"
+msgstr "Nome da organização"
+
+#: includes/class-edg-statement.php:313
+msgid "Defaults to the site title if left empty."
+msgstr "Usa o título do site se deixado em branco."
+
+#: includes/class-edg-statement.php:318
+msgid "Website URL"
+msgstr "URL do site"
+
+#: includes/class-edg-statement.php:324
+msgid ""
+"The URL this statement covers. Required by EAA Art. 13 to identify the scope "
+"of the declaration."
+msgstr ""
+"O URL coberto por esta declaração. Exigido pela EAA Art. 13 para identificar "
+"o âmbito da declaração."
+
+#: includes/class-edg-statement.php:329
+msgid "Accessibility Responsible (optional)"
+msgstr "Responsável pela acessibilidade (opcional)"
+
+#: includes/class-edg-statement.php:334
+msgid "e.g. Web Accessibility Manager"
+msgstr "ex. Responsável pela Acessibilidade Web"
+
+#: includes/class-edg-statement.php:335
+msgid ""
+"Name or role of the person responsible for accessibility. Some national EAA "
+"implementations require this."
+msgstr ""
+"Nome ou função da pessoa responsável pela acessibilidade. Algumas "
+"implementações nacionais da EAA exigem este campo."
+
+#: includes/class-edg-statement.php:342
+msgid "Feedback Channels"
+msgstr "Canais de feedback"
+
+#: includes/class-edg-statement.php:347
+msgid "Accessibility Contact Email"
+msgstr "E-mail de contacto de acessibilidade"
+
+#: includes/class-edg-statement.php:353
+msgid "Required by EAA: users must be able to report accessibility barriers."
+msgstr ""
+"Exigido pela EAA: os utilizadores devem poder comunicar barreiras de "
+"acessibilidade."
+
+#: includes/class-edg-statement.php:358
+msgid "Contact Form URL (optional)"
+msgstr "URL do formulário de contacto (opcional)"
+
+#: includes/class-edg-statement.php:368
+msgid "Phone / Oral Channel (optional)"
+msgstr "Telefone / Canal oral (opcional)"
+
+#: includes/class-edg-statement.php:374
+msgid ""
+"EAA Art. 13 requires information available in written and oral format. Add a "
+"phone number or alternative oral channel."
+msgstr ""
+"A EAA Art. 13 exige informações disponíveis em formato escrito e oral. "
+"Adicione um número de telefone ou canal oral alternativo."
+
+#: includes/class-edg-statement.php:381
+msgid "Evaluation"
+msgstr "Avaliação"
+
+#: includes/class-edg-statement.php:386
+msgid "Evaluation Method"
+msgstr "Método de avaliação"
+
+#: includes/class-edg-statement.php:390 includes/class-edg-statement.php:694
+msgid "Automated tools (LivQ AccessFix)"
+msgstr "Ferramentas automatizadas (LivQ AccessFix)"
+
+#: includes/class-edg-statement.php:391 includes/class-edg-statement.php:695
+msgid "Self-assessment"
+msgstr "Autoavaliação"
+
+#: includes/class-edg-statement.php:392 includes/class-edg-statement.php:696
+msgid "External audit by a third party"
+msgstr "Auditoria externa por terceiros"
+
+#: includes/class-edg-statement.php:394
+msgid ""
+"Required by EN 301 549: how this accessibility evaluation was conducted."
+msgstr ""
+"Exigido pela EN 301 549: como foi realizada esta avaliação de acessibilidade."
+
+#: includes/class-edg-statement.php:399
+msgid "Last Evaluation Date"
+msgstr "Data da última avaliação"
+
+#: includes/class-edg-statement.php:404
+msgid "Date of the last formal accessibility audit."
+msgstr "Data da última auditoria formal de acessibilidade."
+
+#: includes/class-edg-statement.php:409
+msgid "Statement Preparation Date"
+msgstr "Data de preparação da declaração"
+
+#: includes/class-edg-statement.php:414
+msgid ""
+"Date this statement was prepared or last reviewed. Distinct from the "
+"evaluation date - required by Directive 2016/2102 and applied to EAA as best "
+"practice."
+msgstr ""
+"Data em que esta declaração foi preparada ou revista pela última vez. "
+"Distinta da data de avaliação - exigida pela Diretiva 2016/2102 e aplicada à "
+"EAA como boa prática."
+
+#: includes/class-edg-statement.php:420
+msgid "Next Review Date"
+msgstr "Data da próxima revisão"
+
+#: includes/class-edg-statement.php:425
+msgid ""
+"Date when this statement will be reviewed. Annual review is recommended by "
+"both the W3C and Directive 2016/2102 (applied as best practice to EAA)."
+msgstr ""
+"Data em que esta declaração será revista. A revisão anual é recomendada pelo "
+"W3C e pela Diretiva 2016/2102 (aplicada como boa prática à EAA)."
+
+#: includes/class-edg-statement.php:432
+msgid "Conformance"
+msgstr "Conformidade"
+
+#: includes/class-edg-statement.php:437 includes/class-edg-statement.php:842
+msgid "Conformance Status"
+msgstr "Estado de conformidade"
+
+#: includes/class-edg-statement.php:441 includes/class-edg-statement.php:701
+msgid "Fully conformant"
+msgstr "Totalmente conforme"
+
+#: includes/class-edg-statement.php:442 includes/class-edg-statement.php:702
+msgid "Partially conformant"
+msgstr "Parcialmente conforme"
+
+#: includes/class-edg-statement.php:443 includes/class-edg-statement.php:703
+msgid "Non-conformant"
+msgstr "Não conforme"
+
+#: includes/class-edg-statement.php:445
+msgid ""
+"\"Partially conformant\" is correct for most sites - it means known issues "
+"exist and are being addressed."
+msgstr ""
+"\"Parcialmente conforme\" é correto para a maioria dos sítios - significa "
+"que existem problemas conhecidos que estão a ser tratados."
+
+#: includes/class-edg-statement.php:450
+msgid "Known Limitations / Notes"
+msgstr "Limitações conhecidas / Notas"
+
+#: includes/class-edg-statement.php:455
+msgid "Describe any known barriers not yet resolved (optional)."
+msgstr ""
+"Descreva quaisquer barreiras conhecidas ainda não resolvidas (opcional)."
+
+#: includes/class-edg-statement.php:460
+msgid "Disproportionate Burden (optional)"
+msgstr "Encargo desproporcionado (opcional)"
+
+#: includes/class-edg-statement.php:465
+msgid ""
+"EAA allows exemptions for content where full compliance would impose a "
+"disproportionate burden. Describe which content qualifies and the "
+"justification. Leave empty if not applicable."
+msgstr ""
+"A EAA permite isenções para conteúdo em que a conformidade total imporia um "
+"encargo desproporcionado. Descreva qual conteúdo se qualifica e a "
+"justificação. Deixe vazio se não aplicável."
+
+#: includes/class-edg-statement.php:472
+msgid "Organizational Measures"
+msgstr "Medidas organizacionais"
+
+#: includes/class-edg-statement.php:477 includes/class-edg-statement.php:481
+msgid "Accessibility Measures Adopted"
+msgstr "Medidas de acessibilidade adotadas"
+
+#: includes/class-edg-statement.php:492
+msgid ""
+"Tick the measures your organization actively applies. These are listed in "
+"the public statement (W3C recommendation)."
+msgstr ""
+"Assinale as medidas que a sua organização aplica ativamente. Serão listadas "
+"na declaração pública (recomendação W3C)."
+
+#: includes/class-edg-statement.php:499
+msgid "Enforcement"
+msgstr "Execução"
+
+#: includes/class-edg-statement.php:504
+msgid "Enforcement Body URL (optional)"
+msgstr "URL do organismo de execução (opcional)"
+
+#: includes/class-edg-statement.php:510
+msgid ""
+"Direct URL to the national enforcement body complaint form. Makes it easier "
+"for users to escalate. For Italy: Difensore Civico per il Digitale (AgID)."
+msgstr ""
+"URL direta para o formulário de reclamação do organismo nacional de "
+"execução. Facilita a escalada para os utilizadores. Para a Itália: Difensore "
+"Civico per il Digitale (AgID)."
+
+#: includes/class-edg-statement.php:526
+#, php-format
+msgid "Last confirmed by %1$s on %2$s."
+msgstr "Última confirmação de %1$s em %2$s."
+
+#: includes/class-edg-statement.php:536
+msgid ""
+"I confirm that the information in this statement is accurate and that I take "
+"responsibility for its content. This statement was prepared with the "
+"assistance of LivQ AccessFix's automated tools."
+msgstr ""
+"Confirmo que as informações nesta declaração são precisas e assumo a "
+"responsabilidade pelo seu conteúdo. Esta declaração foi preparada com a "
+"assistência das ferramentas automatizadas do LivQ AccessFix."
+
+#: includes/class-edg-statement.php:541
+msgid "Save Statement Config"
+msgstr "Guardar configuração da declaração"
+
+#: includes/class-edg-statement.php:548
+msgid "⚡ One-Click Page Creation"
+msgstr "⚡ Criação de página com um clique"
+
+#: includes/class-edg-statement.php:552
+msgid "Accessibility Statement page already exists."
+msgstr "A página de declaração de acessibilidade já existe."
+
+#: includes/class-edg-statement.php:559
+msgid ""
+"Create a draft WP page titled \"Accessibility Statement\" with the shortcode "
+"pre-inserted."
+msgstr ""
+"Crie uma página de rascunho do WP intitulada \"Declaração de "
+"acessibilidade\" com o shortcode já inserido."
+
+#: includes/class-edg-statement.php:562
+msgid "Create Statement Page"
+msgstr "Criar página de declaração"
+
+#: includes/class-edg-statement.php:572
+msgid "Statement Preview"
+msgstr "Pré-visualização da declaração"
+
+#: includes/class-edg-statement.php:629
+msgid "Could not create page. Please try manually."
+msgstr "Não foi possível criar a página. Tente manualmente."
+
+#: includes/class-edg-statement.php:724
+#, php-format
+msgid "Accessibility Statement for %s"
+msgstr "Declaração de acessibilidade para %s"
+
+#: includes/class-edg-statement.php:733
+#, php-format
+msgid ""
+"%1$s is committed to ensuring digital accessibility for people with "
+"disabilities. We continually improve the user experience for everyone and "
+"apply the relevant accessibility standards on %2$s."
+msgstr ""
+"%1$s está empenhada em garantir a acessibilidade digital para pessoas com "
+"deficiência. Melhoramos continuamente a experiência do utilizador para todos "
+"e aplicamos as normas de acessibilidade relevantes em %2$s."
+
+#: includes/class-edg-statement.php:742
+msgid "Organizational Measures to Support Accessibility"
+msgstr "Medidas organizacionais para apoiar a acessibilidade"
+
+#: includes/class-edg-statement.php:743
+msgid "We take the following measures to ensure accessibility of this website:"
+msgstr ""
+"Tomamos as seguintes medidas para garantir a acessibilidade deste site:"
+
+#: includes/class-edg-statement.php:756
+msgid "Legal Framework and Applicable Standards"
+msgstr "Quadro jurídico e normas aplicáveis"
+
+#: includes/class-edg-statement.php:758
+msgid ""
+"This statement is prepared in compliance with Directive (EU) 2016/2102 on "
+"the accessibility of the websites and mobile applications of public sector "
+"bodies, as implemented by national legislation, and with the model "
+"established by EU Implementing Decision 2018/1523. The technical "
+"requirements are based on the harmonised standard EN 301 549 v3.2.1, which "
+"incorporates Web Content Accessibility Guidelines (WCAG) 2.2, Level AA."
+msgstr ""
+"Esta declaração é preparada em conformidade com a Diretiva (UE) 2016/2102 "
+"sobre a acessibilidade dos sítios web e das aplicações móveis dos organismos "
+"do setor público, conforme implementada pela legislação nacional, e com o "
+"modelo estabelecido pela Decisão de Execução UE 2018/1523. Os requisitos "
+"técnicos baseiam-se na norma harmonizada EN 301 549 v3.2.1."
+
+#: includes/class-edg-statement.php:761 includes/class-edg-statement.php:827
+msgid "Legal basis:"
+msgstr "Base jurídica:"
+
+#: includes/class-edg-statement.php:763
+msgid "Directive (EU) 2016/2102 - Web Accessibility Directive (public sector)"
+msgstr ""
+"Diretiva (UE) 2016/2102 - Diretiva de Acessibilidade Web (setor público)"
+
+#: includes/class-edg-statement.php:767
+msgid "Statement model:"
+msgstr "Modelo de declaração:"
+
+#: includes/class-edg-statement.php:769
+msgid "EU Implementing Decision 2018/1523"
+msgstr "Decisão de Execução UE 2018/1523"
+
+#: includes/class-edg-statement.php:773 includes/class-edg-statement.php:790
+#: includes/class-edg-statement.php:833
+msgid "Technical standard:"
+msgstr "Norma técnica:"
+
+#: includes/class-edg-statement.php:775 includes/class-edg-statement.php:792
+#: includes/class-edg-statement.php:809 includes/class-edg-statement.php:819
+#: includes/class-edg-statement.php:835
+msgid "Web Content Accessibility Guidelines (WCAG) 2.2, Level AA"
+msgstr "Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.2, Nível AA"
+
+#: includes/class-edg-statement.php:777 includes/class-edg-statement.php:794
+#: includes/class-edg-statement.php:837
+msgid "(via EN 301 549 v3.2.1)"
+msgstr "(via EN 301 549 v3.2.1)"
+
+#: includes/class-edg-statement.php:781
+msgid ""
+"This statement is prepared on a voluntary basis in compliance with the "
+"European Accessibility Act (Directive (EU) 2019/882) where applicable to "
+"this organization's activities, and following the W3C Accessibility "
+"Statement model as best practice. The technical requirements are based on EN "
+"301 549 v3.2.1, which incorporates WCAG 2.2, Level AA."
+msgstr ""
+"Esta declaração é preparada voluntariamente em conformidade com a Lei "
+"Europeia de Acessibilidade (Diretiva (UE) 2019/882) onde aplicável às "
+"atividades desta organização, seguindo o modelo W3C como boa prática. Os "
+"requisitos técnicos baseiam-se na EN 301 549 v3.2.1."
+
+#: includes/class-edg-statement.php:784
+msgid "Reference standard:"
+msgstr "Norma de referência:"
+
+#: includes/class-edg-statement.php:786
+msgid "Directive (EU) 2019/882 - European Accessibility Act (where applicable)"
+msgstr ""
+"Diretiva (UE) 2019/882 - Lei Europeia de Acessibilidade (onde aplicável)"
+
+#: includes/class-edg-statement.php:798
+#, fuzzy
+msgid ""
+"This organization qualifies as a microenterprise (fewer than 10 employees "
+"and annual turnover ≤ €2M) and is therefore exempt from mandatory "
+"obligations under the European Accessibility Act (Directive (EU) 2019/882, "
+"Art. 4(5)). This statement is provided voluntarily as a best practice "
+"commitment, following the W3C Accessibility Statement model."
+msgstr ""
+"Esta organização qualifica-se como microempresa (menos de 10 funcionários e "
+"faturação anual ≤ 2M€) e está, portanto, isenta das obrigações obrigatórias "
+"ao abrigo da Lei Europeia de Acessibilidade (Diretiva (UE) 2019/882, Art. "
+"4(5)). Esta declaração é fornecida voluntariamente."
+
+#: includes/class-edg-statement.php:801
+msgid "Exemption basis:"
+msgstr "Base de isenção:"
+
+#: includes/class-edg-statement.php:803
+msgid "Directive (EU) 2019/882, Article 4(5) - Microenterprise exemption"
+msgstr "Diretiva (UE) 2019/882, Art. 4(5) - Isenção para microempresas"
+
+#: includes/class-edg-statement.php:807 includes/class-edg-statement.php:817
+msgid "Technical reference:"
+msgstr "Referência técnica:"
+
+#: includes/class-edg-statement.php:814
+#, fuzzy
+msgid ""
+"This is a personal website with no commercial activity. Personal websites "
+"are outside the scope of the European Accessibility Act (Directive (EU) "
+"2019/882) and Directive (EU) 2016/2102. This statement is provided "
+"voluntarily as a commitment to inclusive design, following W3C Accessibility "
+"Guidelines."
+msgstr ""
+"Site pessoal / Particular: sites pessoais sem atividade comercial estão fora "
+"do âmbito da Lei Europeia de Acessibilidade (Diretiva (UE) 2019/882) e da "
+"Diretiva (UE) 2016/2102. Esta declaração é fornecida voluntariamente como "
+"compromisso com o design inclusivo."
+
+#: includes/class-edg-statement.php:824
+msgid ""
+"This statement is prepared in compliance with the European Accessibility Act "
+"(Directive (EU) 2019/882, applicable from 28 June 2025) and applicable "
+"national implementing legislation. The technical requirements are based on "
+"the harmonised standard EN 301 549 v3.2.1, which incorporates Web Content "
+"Accessibility Guidelines (WCAG) 2.2, Level AA. The structure of this "
+"statement follows the W3C Accessibility Statement best practice as reference "
+"model."
+msgstr ""
+"Esta declaração é preparada em conformidade com a Lei Europeia de "
+"Acessibilidade (Diretiva (UE) 2019/882, aplicável a partir de 28 de junho de "
+"2025) e a legislação nacional de transposição aplicável. Os requisitos "
+"técnicos baseiam-se na norma harmonizada EN 301 549 v3.2.1. A estrutura "
+"desta declaração segue as boas práticas W3C para declarações de "
+"acessibilidade como modelo de referência."
+
+#: includes/class-edg-statement.php:829
+msgid "Directive (EU) 2019/882 - European Accessibility Act"
+msgstr "Diretiva (UE) 2019/882 - Lei Europeia de Acessibilidade"
+
+#: includes/class-edg-statement.php:849
+#, php-format
+msgid ""
+"This website is <strong>%s</strong> with WCAG 2.2 Level AA and the "
+"requirements of Directive (EU) 2016/2102. \"Partially conformant\" means "
+"that some parts of the content do not yet fully conform to the accessibility "
+"standard."
+msgstr ""
+"Este site é <strong>%s</strong> com WCAG 2.2 Nível AA e os requisitos da "
+"Diretiva (UE) 2016/2102. \"Parcialmente conforme\" significa que algumas "
+"partes do conteúdo ainda não estão totalmente em conformidade com a norma de "
+"acessibilidade."
+
+#: includes/class-edg-statement.php:858
+#, php-format
+msgid ""
+"This website is <strong>%s</strong> with WCAG 2.2 Level AA. This statement "
+"is provided voluntarily. \"Partially conformant\" means that some parts of "
+"the content do not yet fully conform to the accessibility guidelines."
+msgstr ""
+"Este site é <strong>%s</strong> com WCAG 2.2 Nível AA. Esta declaração é "
+"fornecida voluntariamente. \"Parcialmente conforme\" significa que algumas "
+"partes do conteúdo ainda não estão totalmente em conformidade com as "
+"diretrizes de acessibilidade."
+
+#: includes/class-edg-statement.php:867
+#, php-format
+msgid ""
+"This website is <strong>%s</strong> with WCAG 2.2 Level AA and the "
+"requirements of Directive (EU) 2019/882 where applicable. \"Partially "
+"conformant\" means that some parts of the content do not yet fully conform "
+"to the accessibility standard."
+msgstr ""
+"Este site é <strong>%s</strong> com WCAG 2.2 Nível AA e os requisitos da "
+"Diretiva (UE) 2019/882 onde aplicável. \"Parcialmente conforme\" significa "
+"que algumas partes do conteúdo ainda não estão totalmente em conformidade "
+"com o padrão de acessibilidade."
+
+#: includes/class-edg-statement.php:876
+#, php-format
+msgid ""
+"This website is <strong>%s</strong> with WCAG 2.2 Level AA and the "
+"requirements of Directive (EU) 2019/882. \"Partially conformant\" means that "
+"some parts of the content do not yet fully conform to the accessibility "
+"standard."
+msgstr ""
+"Este site é <strong>%s</strong> com WCAG 2.2 Nível AA e os requisitos da "
+"Diretiva (UE) 2019/882. \"Parcialmente conforme\" significa que algumas "
+"partes do conteúdo ainda não estão totalmente em conformidade com a norma de "
+"acessibilidade."
+
+#: includes/class-edg-statement.php:886
+msgid "Evaluation method:"
+msgstr "Método de avaliação:"
+
+#: includes/class-edg-statement.php:890
+msgid "Last evaluation date:"
+msgstr "Data da última avaliação:"
+
+#: includes/class-edg-statement.php:895
+msgid "Technical Specifications"
+msgstr "Especificações técnicas"
+
+#: includes/class-edg-statement.php:896
+msgid ""
+"This website relies on the following technologies for conformance with the "
+"accessibility standard:"
+msgstr ""
+"Este site baseia-se nas seguintes tecnologias para conformidade com a norma "
+"de acessibilidade:"
+
+#: includes/class-edg-statement.php:902
+msgid "WordPress (CMS)"
+msgstr "WordPress (CMS)"
+
+#: includes/class-edg-statement.php:905
+msgid "Technical Accessibility Features (Automated Remediation)"
+msgstr "Funcionalidades técnicas de acessibilidade (correção automatizada)"
+
+#: includes/class-edg-statement.php:910
+#, php-format
+msgid ""
+"The following technical accessibility features are automatically managed and "
+"remediated on this website server-side by <strong>%s</strong>:"
+msgstr ""
+"As seguintes funcionalidades técnicas de acessibilidade são geridas e "
+"corrigidas automaticamente no lado do servidor deste sítio web por "
+"<strong>%s</strong>:"
+
+#: includes/class-edg-statement.php:925
+msgid "No automated remediation modules are currently active."
+msgstr "Nenhum módulo de remediação automática está atualmente ativo."
+
+#: includes/class-edg-statement.php:928
+msgid "Non-accessible Content"
+msgstr "Conteúdo não acessível"
+
+#: includes/class-edg-statement.php:932
+msgid ""
+"Despite our best efforts, some content elements may have temporary "
+"limitations. We are actively working to audit and manually remediate these "
+"components."
+msgstr ""
+"Apesar dos nossos melhores esforços, alguns elementos de conteúdo podem ter "
+"limitações temporárias. Estamos a trabalhar ativamente para auditar e "
+"corrigir manualmente esses componentes."
+
+#: includes/class-edg-statement.php:939
+msgid "Content exempt under Directive (EU) 2016/2102 Art. 1(4):"
+msgstr "Conteúdo isento nos termos da Diretiva (UE) 2016/2102 Art. 1(4):"
+
+#: includes/class-edg-statement.php:941
+msgid "Content exempt under Article 2(4) of Directive (EU) 2019/882:"
+msgstr "Conteúdo isento nos termos do Artigo 2.º(4) da Diretiva (UE) 2019/882:"
+
+#: includes/class-edg-statement.php:947
+msgid "Known limitations:"
+msgstr "Limitações conhecidas:"
+
+#: includes/class-edg-statement.php:950
+msgid ""
+"Pre-recorded time-based media (audio/video) published before 28 June 2025."
+msgstr ""
+"Média temporal pré-gravada (áudio/vídeo) publicada antes de 28 de junho de "
+"2025."
+
+#: includes/class-edg-statement.php:951
+msgid ""
+"Office file formats (PDF, DOCX, XLSX) published before 28 June 2025 and not "
+"used for active administrative processes."
+msgstr ""
+"Formatos de ficheiro de escritório (PDF, DOCX, XLSX) publicados antes de 28 "
+"de junho de 2025 e não utilizados para processos administrativos ativos."
+
+#: includes/class-edg-statement.php:952
+msgid ""
+"Online maps and mapping services, where essential navigational information "
+"is provided in an accessible digital alternative."
+msgstr ""
+"Mapas online e serviços de cartografia, desde que as informações de "
+"navegação essenciais sejam fornecidas numa alternativa digital acessível."
+
+#: includes/class-edg-statement.php:953
+msgid ""
+"Third-party content that is neither funded, developed by, nor under the "
+"direct control of this organization."
+msgstr ""
+"Conteúdo de terceiros que não é financiado, desenvolvido nem está sob o "
+"controlo direto desta organização."
+
+#: includes/class-edg-statement.php:954
+msgid ""
+"Content from archived websites that has not been updated or restructured "
+"after 28 June 2025."
+msgstr ""
+"Conteúdo de sites arquivados que não foram atualizados ou reestruturados "
+"após 28 de junho de 2025."
+
+#: includes/class-edg-statement.php:958
+msgid "Disproportionate Burden:"
+msgstr "Encargo desproporcionado:"
+
+#: includes/class-edg-statement.php:962
+msgid "Feedback and Contact Information"
+msgstr "Feedback e informações de contacto"
+
+#: includes/class-edg-statement.php:963
+msgid ""
+"We welcome your feedback on the accessibility of this website. If you "
+"encounter any accessibility barriers, please notify us so we can provide an "
+"accessible alternative or make the content accessible (EAA Art. 13):"
+msgstr ""
+"Bem-vindo ao seu feedback sobre a acessibilidade deste site. Se encontrar "
+"barreiras de acessibilidade, notifique-nos para que possamos fornecer uma "
+"alternativa acessível ou tornar o conteúdo acessível (EAA Art. 13):"
+
+#: includes/class-edg-statement.php:967
+msgid "Accessibility responsible:"
+msgstr "Responsável pela acessibilidade:"
+
+#: includes/class-edg-statement.php:973
+msgid "Email:"
+msgstr "E-mail:"
+
+#: includes/class-edg-statement.php:981
+msgid "Phone:"
+msgstr "Telefone:"
+
+#: includes/class-edg-statement.php:987
+msgid "Contact form:"
+msgstr "Formulário de contacto:"
+
+#: includes/class-edg-statement.php:993
+msgid ""
+"We acknowledge and aim to respond to accessibility feedback within 2 "
+"business days."
+msgstr ""
+"Reconhecemos e comprometemo-nos a responder ao feedback de acessibilidade no "
+"prazo de 2 dias úteis."
+
+#: includes/class-edg-statement.php:996
+msgid "Enforcement Procedure"
+msgstr "Procedimento de execução"
+
+#: includes/class-edg-statement.php:1000
+msgid ""
+"As this statement is provided voluntarily, there is no formal enforcement "
+"procedure. We welcome your feedback and will do our best to address "
+"accessibility issues in a reasonable timeframe."
+msgstr ""
+"Como esta declaração é fornecida voluntariamente, não existe procedimento de "
+"execução formal. Agradecemos o seu feedback e faremos o possível para "
+"resolver problemas de acessibilidade num prazo razoável."
+
+#: includes/class-edg-statement.php:1004
+msgid ""
+"If you experience a persistent accessibility barrier and are unsatisfied "
+"with our response, you can file an official complaint with the national "
+"enforcement authority. In Italy, the competent supervisory body under "
+"Legislative Decree 106/2018 (implementing Directive 2016/2102) is "
+"<strong>AgID (Agenzia per l'Italia Digitale)</strong>. Complaints must be "
+"submitted through the <strong>Difensore Civico per il Digitale</strong>."
+msgstr ""
+"Se encontrar uma barreira de acessibilidade persistente e não estiver "
+"satisfeito com a nossa resposta, pode apresentar uma queixa oficial à "
+"autoridade nacional de supervisão. Para mais informações sobre o organismo "
+"competente no seu país, consulte a legislação nacional de transposição da "
+"Diretiva 2016/2102."
+
+#: includes/class-edg-statement.php:1009
+msgid ""
+"If you experience a persistent accessibility barrier and are unsatisfied "
+"with our response, you may contact the relevant national enforcement "
+"authority. In Italy, the competent body under the EAA framework (Legislative "
+"Decree 82/2022) is <strong>AgID (Agenzia per l'Italia Digitale)</strong> "
+"through the <strong>Difensore Civico per il Digitale</strong>, where the EAA "
+"is applicable to your organization."
+msgstr ""
+"Se encontrar uma barreira de acessibilidade persistente e não estiver "
+"satisfeito com a nossa resposta, pode contactar a autoridade nacional "
+"competente. Para mais informações, consulte a legislação nacional de "
+"transposição da EAA."
+
+#: includes/class-edg-statement.php:1014
+msgid ""
+"If you experience a persistent accessibility barrier and are unsatisfied "
+"with our response, you can file an official complaint with the national "
+"enforcement authority. In Italy, the competent body under Legislative Decree "
+"82/2022 (EAA) and Law 4/2004 is <strong>AgID (Agenzia per l'Italia "
+"Digitale)</strong> through the <strong>Difensore Civico per il Digitale</"
+"strong>."
+msgstr ""
+"Se encontrar uma barreira de acessibilidade persistente e não estiver "
+"satisfeito com a nossa resposta, pode apresentar uma queixa oficial à "
+"autoridade nacional de fiscalização. Consulte os recursos oficiais da EAA da "
+"UE para saber qual é a autoridade competente no seu país."
+
+#: includes/class-edg-statement.php:1019
+msgid ""
+"If you are not satisfied with our response, you can contact the relevant "
+"national enforcement authority responsible for the European Accessibility "
+"Act (Directive 2019/882) in your country."
+msgstr ""
+
+#: includes/class-edg-statement.php:1026
+msgid "File a complaint with the enforcement authority →"
+msgstr "Apresentar uma reclamação junto da autoridade de execução →"
+
+#: includes/class-edg-statement.php:1037
+#, php-format
+msgid ""
+"Statement prepared: %1$s. Last evaluated: %2$s. Prepared with the assistance "
+"of LivQ AccessFix v%3$s automated tools. The accuracy and completeness of "
+"this statement is the sole responsibility of the website operator."
+msgstr ""
+"Declaração preparada: %1$s. Última avaliação: %2$s. Preparada com a "
+"assistência das ferramentas automatizadas do LivQ AccessFix v%3$s. A "
+"exatidão e integridade desta declaração são da exclusiva responsabilidade do "
+"operador do site."
+
+#: includes/class-edg-statement.php:1046
+#, php-format
+msgid "Next scheduled review: %s."
+msgstr "Próxima revisão agendada: %s."
+
+#: includes/class-edg-statement.php:1054
+#, php-format
+msgid "Confirmed by %1$s on %2$s."
+msgstr "Confirmado por %1$s em %2$s."
+
+#: includes/class-edg-statement.php:1078
+msgid ""
+"Accessibility is included as part of our mission statement and "
+"organizational policies."
+msgstr ""
+"A acessibilidade está incluída na nossa declaração de missão e políticas "
+"organizacionais."
+
+#: includes/class-edg-statement.php:1079
+msgid ""
+"We have appointed an Accessibility Officer (or equivalent role) responsible "
+"for ongoing compliance."
+msgstr ""
+"Nomeamos um Responsável pela Acessibilidade (ou função equivalente) "
+"responsável pela conformidade contínua."
+
+#: includes/class-edg-statement.php:1080
+msgid ""
+"We provide accessibility training to all staff who create or manage web "
+"content."
+msgstr ""
+"Fornecemos formação em acessibilidade a todos os funcionários que criam ou "
+"gerem conteúdo web."
+
+#: includes/class-edg-statement.php:1081
+msgid ""
+"We include accessibility requirements in our procurement and vendor "
+"evaluation process."
+msgstr ""
+"Incluímos requisitos de acessibilidade no nosso processo de aquisição e "
+"avaliação de fornecedores."
+
+#: includes/class-edg-statement.php:1082
+msgid ""
+"We conduct periodic accessibility testing using automated tools and manual "
+"reviews."
+msgstr ""
+"Realizamos testes de acessibilidade periódicos utilizando ferramentas "
+"automatizadas e revisões manuais."
+
+#: includes/class-edg-statement.php:1083
+msgid ""
+"We have a formal process to handle and resolve accessibility complaints from "
+"users."
+msgstr ""
+"Temos um processo formal para lidar e resolver reclamações de acessibilidade "
+"dos utilizadores."
+
+#: includes/class-edg-statement.php:1125
+msgid ""
+"All links that open in a new tab/window announce this to screen reader users "
+"via a hidden label."
+msgstr ""
+"Todas as ligações que abrem num novo separador/janela anunciam isso aos "
+"utilizadores de leitores de ecrã através de uma etiqueta oculta."
+
+#: includes/class-edg-statement.php:1129
+msgid ""
+"A skip navigation link is provided as the first element in the page, "
+"allowing keyboard users to jump directly to the main content."
+msgstr ""
+"Uma ligação de salto de navegação é fornecida como primeiro elemento da "
+"página, permitindo que os utilizadores de teclado saltem diretamente para o "
+"conteúdo principal."
+
+#: includes/class-edg-statement.php:1133
+msgid ""
+"Decorative images carry an explicit empty alt attribute so screen readers "
+"skip them rather than announcing the file name."
+msgstr ""
+"As imagens decorativas têm um atributo alt explicitamente vazio para que os "
+"leitores de ecrã as saltem em vez de anunciar o nome do ficheiro."
+
+#: includes/class-edg-statement.php:1137
+msgid ""
+"A visible, high-contrast focus indicator is applied to all interactive "
+"elements for keyboard and switch access users."
+msgstr ""
+"Um indicador de foco visível e de alto contraste é aplicado a todos os "
+"elementos interativos para utilizadores de teclado e acesso por switch."
+
+#: includes/class-edg-statement.php:1141
+msgid ""
+"Navigation menus with sub-menus expose aria-haspopup and aria-expanded state "
+"to assistive technologies."
+msgstr ""
+"Os menus de navegação com submenus expõem o estado aria-haspopup e aria-"
+"expanded às tecnologias de apoio."
+
+#: includes/class-edg-statement.php:1145
+msgid ""
+"Content heading structure is validated on save to prevent level skips that "
+"disorient screen reader users navigating by heading."
+msgstr ""
+"A estrutura de cabeçalhos do conteúdo é validada ao guardar para evitar "
+"saltos de nível que desorientam os utilizadores de leitores de ecrã que "
+"navegam por cabeçalhos."
+
+#: includes/class-edg-statement.php:1149
+msgid ""
+"Icon and image links without visible text receive programmatic accessible "
+"labels so screen readers announce the link destination."
+msgstr ""
+"As ligações de ícone e imagem sem texto visível recebem etiquetas acessíveis "
+"programáticas para que os leitores de ecrã anunciem o destino da ligação."
+
+#: includes/class-edg-statement.php:1153
+msgid ""
+"Embedded iframes without a title attribute receive a programmatic title so "
+"screen readers can identify the embedded content."
+msgstr ""
+"Os iframes incorporados sem atributo title recebem um título programático "
+"para que os leitores de ecrã possam identificar o conteúdo incorporado."
+
+#: includes/class-edg-statement.php:1157
+msgid ""
+"Form inputs without a visible label receive programmatic labels so assistive "
+"technology users can identify each field."
+msgstr ""
+"Os campos de formulário sem etiqueta visível recebem etiquetas programáticas "
+"para que os utilizadores de tecnologia de apoio possam identificar cada "
+"campo."
+
+#: includes/class-edg-statement.php:1161
+msgid ""
+"WooCommerce quantity controls, product gallery, and cart notifications are "
+"enhanced with ARIA labels and live region announcements."
+msgstr ""
+"Os controlos de quantidade, a galeria de produtos e as notificações do "
+"carrinho do WooCommerce são melhorados com etiquetas ARIA e anúncios de "
+"região em tempo real."
+
+#: includes/class-edg-statement.php:1165
+msgid ""
+"A pre-publish accessibility panel in the block editor alerts authors about "
+"heading skips, missing alt text, and unlabeled form fields before content "
+"goes live."
+msgstr ""
+"Um painel de acessibilidade pré-publicação no editor de blocos alerta os "
+"autores sobre saltos de títulos, texto alt em falta e campos de formulário "
+"sem etiqueta antes de o conteúdo ser publicado."
+
+#: includes/class-edg-woocommerce.php:95
+msgid "Decrease quantity"
+msgstr "Diminuir quantidade"
+
+#: includes/class-edg-woocommerce.php:109
+msgid "Increase quantity"
+msgstr "Aumentar quantidade"
+
+#: includes/class-edg-woocommerce.php:136
+msgid "Open product image gallery"
+msgstr "Abrir galeria de imagens do produto"
+
+#: includes/class-edg-woocommerce.php:191
+#, php-format
+msgid "Add %s to cart"
+msgstr "Adicionar %s ao carrinho"
+
+#: includes/class-edg-woocommerce.php:254
+msgid "added to cart."
+msgstr "adicionado ao carrinho."
+
+#: includes/class-edg-woocommerce.php:255
+msgid "Item added to cart."
+msgstr "Item adicionado ao carrinho."
+
+#: includes/class-edg-woocommerce.php:256
+msgid "Item removed from cart."
+msgstr "Item removido do carrinho."
+
+#: includes/class-edg-woocommerce.php:257
+msgid "Quantity"
+msgstr "Quantidade"
+
+#~ msgid "LivQ AccessFix v%s - License: GPLv2 or later."
+#~ msgstr "LivQ AccessFix v%s - Licença: GPLv2 ou posterior."
+
+#~ msgid "Are you protecting your clients from the EAA?"
+#~ msgstr "Está a proteger os seus clientes do EAA?"
+
+#~ msgid ""
+#~ "LivQ AccessFix helps you protect your clients' websites from European "
+#~ "Accessibility Act penalties. If this open source tool is saving you hours "
+#~ "of manual remediation, support LivQ's development by leaving a 5-star "
+#~ "review on WordPress.org!"
+#~ msgstr ""
+#~ "O LivQ AccessFix ajuda-o a proteger os sítios web dos seus clientes das "
+#~ "sanções da Lei Europeia de Acessibilidade. Se esta ferramenta de código "
+#~ "aberto está a poupar-lhe horas de correcção manual, apoie o "
+#~ "desenvolvimento da LivQ deixando uma avaliação de 5 estrelas no "
+#~ "WordPress.org!"
+
+#~ msgid "Leave a review on WordPress.org"
+#~ msgstr "Deixar uma avaliação no WordPress.org"
+
+#~ msgid ""
+#~ "1 image missing alternative text (alt). Screen reader users will not be "
+#~ "able to perceive the image content (WCAG 1.1.1)."
+#~ msgstr ""
+#~ "1 imagem sem texto alternativo (alt). Os utilizadores de leitores de ecrã "
+#~ "não conseguirão percepcionar o conteúdo da imagem (WCAG 1.1.1)."
+
+#~ msgid ""
+#~ "images missing alternative text (alt). Screen reader users will not be "
+#~ "able to perceive the content (WCAG 1.1.1)."
+#~ msgstr ""
+#~ "imagens sem texto alternativo (alt). Os utilizadores de leitores de ecrã "
+#~ "não conseguirão percepcionar o conteúdo (WCAG 1.1.1)."
+
+#~ msgid ""
+#~ "1 link uses a URL as clickable text. Replace the URL with a meaningful "
+#~ "description of the action or destination (WCAG 2.4.4)."
+#~ msgstr ""
+#~ "1 ligação usa um URL como texto clicável. Substitua o URL por uma "
+#~ "descrição significativa da acção ou do destino (WCAG 2.4.4)."
+
+#~ msgid ""
+#~ "links use a URL as clickable text. Replace them with meaningful "
+#~ "descriptions (WCAG 2.4.4)."
+#~ msgstr ""
+#~ "ligações usam um URL como texto clicável. Substitua-as por descrições "
+#~ "significativas (WCAG 2.4.4)."
+
+#~ msgid "Accessibility - No issues"
+#~ msgstr "Acessibilidade - Sem problemas"
+
+#~ msgid "Accessibility"
+#~ msgstr "Acessibilidade"
+
+#~ msgid "warning"
+#~ msgstr "aviso"
+
+#~ msgid "warnings"
+#~ msgstr "avisos"
+
+#~ msgid "No accessibility issues detected in this document."
+#~ msgstr "Não foram detectados problemas de acessibilidade neste documento."
+
+#~ msgid ""
+#~ "Automated WCAG 2.2 AA & European Accessibility Act (EAA) remediation for "
+#~ "WordPress: focus styles, external link labels, skip links, alt "
+#~ "attributes, heading hierarchy, ARIA menus, and Gutenberg pre-publish "
+#~ "checks - zero configuration required."
+#~ msgstr ""
+#~ "Correção automatizada WCAG 2.2 AA e EAA para WordPress: estilos de foco, "
+#~ "rótulos de ligações externas, ligações de salto, atributos alt, "
+#~ "hierarquia de títulos, menus ARIA e verificações pré-publicação do "
+#~ "Gutenberg - sem configuração necessária."
+
+#~ msgid ""
+#~ "I confirm that the information in this statement is accurate and that I "
+#~ "take responsibility for its content. This statement was prepared with the "
+#~ "assistance of LivQ AccessFix\\'s automated tools."
+#~ msgstr ""
+#~ "Confirmo que as informações desta declaração são precisas e assumo a "
+#~ "responsabilidade pelo seu conteúdo. Esta declaração foi preparada com a "
+#~ "assistência das ferramentas automatizadas do LivQ AccessFix."
+
+#~ msgid ""
+#~ "Statement prepared: %1$s. Prepared with the assistance of LivQ AccessFix "
+#~ "v%2$s automated tools. The accuracy and completeness of this statement is "
+#~ "the sole responsibility of the website operator."
+#~ msgstr ""
+#~ "Declaração preparada em: %1$s. Preparada com a assistência das "
+#~ "ferramentas automatizadas do LivQ AccessFix v%2$s. A precisão e "
+#~ "integridade desta declaração são da exclusiva responsabilidade do "
+#~ "operador do sítio web."
+
+#~ msgid "Known Limitations and Disclaimers"
+#~ msgstr "Limitações conhecidas e isenções de responsabilidade"
+
+#~ msgid "Standard applied:"
+#~ msgstr "Norma aplicada:"
+
+#~ msgid ""
+#~ "This website is <strong>%s</strong> with WCAG 2.2 Level AA. \"Partially "
+#~ "conformant\" means that some parts of the content do not yet fully "
+#~ "conform to the accessibility standard."
+#~ msgstr ""
+#~ "Este sítio web é <strong>%s</strong> com WCAG 2.2 Nível AA. "
+#~ "\"Parcialmente conforme\" significa que algumas partes do conteúdo ainda "
+#~ "não estão totalmente em conformidade com a norma de acessibilidade."
+
+#~ msgid ""
+#~ "Despite our best efforts, some content elements may have temporary "
+#~ "limitations (e.g., older PDF documents, third-party embedded maps, or "
+#~ "user-generated media galleries). We are actively working to audit and "
+#~ "manually remediate these components."
+#~ msgstr ""
+#~ "Apesar dos nossos melhores esforços, alguns elementos de conteúdo podem "
+#~ "ter limitações temporárias (p. ex., documentos PDF mais antigos, mapas "
+#~ "incorporados de terceiros ou galerias de multimédia geradas por "
+#~ "utilizadores). Estamos a trabalhar ativamente para auditar e remediar "
+#~ "manualmente esses componentes."
+
+#~ msgid ""
+#~ "We welcome your feedback on the accessibility of this website. If you "
+#~ "encounter any accessibility barriers, please notify us immediately so we "
+#~ "can provide an accessible alternative:"
+#~ msgstr ""
+#~ "Agradecemos o seu feedback sobre a acessibilidade deste sítio web. Se "
+#~ "encontrar barreiras de acessibilidade, notifique-nos imediatamente para "
+#~ "que possamos fornecer uma alternativa acessível:"
+
+#~ msgid ""
+#~ "This statement is prepared in compliance with the European Accessibility "
+#~ "Act (Directive (EU) 2019/882) and applicable national implementing "
+#~ "legislation. The technical requirements are based on the harmonised "
+#~ "standard EN 301 549 v3.2.1, which incorporates Web Content Accessibility "
+#~ "Guidelines (WCAG) 2.2, Level AA."
+#~ msgstr ""
+#~ "Esta declaração é preparada em conformidade com a Lei Europeia de "
+#~ "Acessibilidade (Diretiva (UE) 2019/882) e a legislação nacional de "
+#~ "transposição aplicável. Os requisitos técnicos baseiam-se na norma "
+#~ "harmonizada EN 301 549 v3.2.1, que incorpora as Diretrizes de "
+#~ "Acessibilidade para Conteúdo Web (WCAG) 2.2, Nível AA."
+
+#~ msgid ""
+#~ "Private sector: governed by Directive (EU) 2019/882 (EAA), applicable "
+#~ "from 28 June 2025. Public sector: governed by Directive 2016/2102 + "
+#~ "Implementing Decision 2018/1523, applicable since 2018/2019."
+#~ msgstr ""
+#~ "Setor privado: regido pela Diretiva (UE) 2019/882 (EAA), aplicável a "
+#~ "partir de 28 de junho de 2025. Setor público: regido pela Diretiva "
+#~ "2016/2102 + Decisão de Execução 2018/1523, aplicável desde 2018/2019."
+
+#~ msgid ""
+#~ "Public Administration: you must also submit this statement annually via "
+#~ "the official national channel (e.g. form.agid.gov.it for Italy). This "
+#~ "plugin generates the public-facing statement but does not submit it to "
+#~ "the authorities."
+#~ msgstr ""
+#~ "Administração Pública: deve também submeter esta declaração anualmente "
+#~ "através do canal nacional oficial (ex. form.agid.gov.it para Itália). "
+#~ "Este plugin gera a declaração pública mas não a submete às autoridades."

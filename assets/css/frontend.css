@@ -1,0 +1,76 @@
+/*
+ * EAA Developer Guard - Frontend Accessibility Stylesheet
+ *
+ * This file is provided as a standalone reference/override entry point.
+ * The canonical styles are injected inline via wp_add_inline_style()
+ * in LIVQACEA_Frontend::enqueue_inline_styles() to avoid an HTTP request.
+ *
+ * Theme developers who wish to override specific rules can enqueue this
+ * file after the plugin, or reference it as a starting point.
+ *
+ * WCAG Criteria addressed:
+ *   1.1.1 Non-text Content - via .screen-reader-text on decorative notices
+ *   2.4.1 Bypass Blocks    - via .skip-link display on focus
+ *   2.4.11 Focus Appearance - via :focus-visible rules
+ *
+ * @package LivQ_AccessFix
+ * @version 1.0.0
+ */
+
+/* ==========================================================================
+   Screen-reader-text utility
+   Hides text visually while keeping it in the accessibility tree.
+   Implementation follows WordPress core (Twenty Twenty-Four theme).
+   ========================================================================== */
+
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	word-wrap: normal !important; /* Prevents wrapping that can cause reflow */
+}
+
+/* When the skip link receives focus, make it visible and usable. */
+.screen-reader-text:focus {
+	background-color: #ffffff;
+	border-radius: 4px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	clip-path: none;
+	color: #21759b;
+	display: block;
+	font-size: 0.875rem;
+	font-weight: 700;
+	height: auto;
+	left: 8px;
+	line-height: normal;
+	padding: 12px 24px;
+	text-decoration: none;
+	top: 8px;
+	width: auto;
+	z-index: 100000; /* Must be above all other elements */
+}
+
+/* ==========================================================================
+   Focus-visible styles - WCAG 2.4.11 Focus Appearance
+   Uses :focus-visible (not :focus) to avoid showing the outline on
+   mouse/touch interaction, while preserving it for keyboard navigation.
+   !important overrides common theme resets (outline: none / outline: 0).
+   ========================================================================== */
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+	outline: 3px solid #0056b3 !important;
+	outline-offset: 3px !important;
+	box-shadow: 0 0 0 5px rgba(0, 86, 179, 0.3) !important;
+}
